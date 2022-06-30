@@ -1,0 +1,165 @@
+/*global*/
+.mmc_body {
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.mmc_btn, .mmc_btn:active {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #000;
+  border: 2px solid #f2c311;
+  color: #f2c311;
+  padding: 10px 0;
+  display: inline;
+}
+
+.mmc_btn:hover {
+  background-color: #f2c311;
+  border: 2px solid #f2c311;
+  color: #000;
+}
+
+.mmc_btn:focus {
+  outline: none;
+}
+
+/*INDEX*/
+.mmc_link {
+  text-decoration: none;
+}
+
+#mmc_indexBody {
+  display: flex;
+}
+
+#mmc_indexBody .mmc_btn {
+  width: 120px;
+}
+
+.mmc_btn-index {
+  width: 80px;
+}
+
+/*popup*/
+#mmc_count {
+  width: 100%;
+}
+
+#mmc_members-table {
+  border: 2px solid #f2c311;
+  min-width: 300px;
+}
+
+#mmc_members-table th {
+  background-color: #F2C311;
+  padding: 10px 40px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.1rem;
+}
+
+#mmc_members-table td {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+  border-bottom: 1px dotted #F2C311;
+}
+
+/*first entry*/
+/*ADDED TO IT OTHER CLASSES*/
+#mmc_members, #mmc_txtAdd, #mmc_edit {
+  color: white;
+  padding: 10px 40px;
+  border: 2px solid #f2c311;
+  margin-bottom: 10px;
+  padding-bottom: 35px;
+  min-width: 180px;
+}
+
+#mmc_members p, #mmc_edit p, #mmc_txtAdd p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border-left: 2px solid #f2c311;
+  padding-left: 5px;
+}
+
+#mmc_members input, #mmc_edit input, #mmc_txtAdd input {
+  background-color: #000;
+  border: 2px solid #f2c311;
+  padding: 5px;
+  color: #fff;
+}
+
+#mmc_members input:focus, #mmc_edit input:focus {
+  outline: none;
+}
+
+.mmc_entryBtns {
+  display: flex;
+  width: 90%;
+  left: 5%;
+  position: fixed;
+  padding-top: 0px;
+  background-color: #000;
+  transition: smooth;
+}
+
+.mmc_entryBtnsScrolled {
+  background-color: #000;
+  padding-top: 20px;
+  top: 0px;
+  transition: smooth;
+}
+
+#mmc_marginer {
+  margin-top: 60px;
+}
+
+#mmc_plus, #mmc_save {
+  width: 50%;
+}
+
+#mmc_save {
+  left: 50%;
+}
+
+#mmc_plus {
+  font-weight: 900;
+}
+
+.mmc_memberSaved {
+  border-bottom: 2px solid #f2c311;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.mmc_memberSavedHeader {
+  padding-left: 5px;
+  border-left: 2px solid #f2c311;
+  border-bottom: 2px solid #f2c311;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*add member by txt file*/
+#mmc_fileInput {
+  display: none;
+}
+
+#mmc_fileInputLbl {
+  border: 2px solid #f2c311;
+  padding: 5px 45px;
+  color: #f2c311 !important;
+}
+
+#mmc_fileInputLbl:hover {
+  background-color: #f2c311;
+  color: #000 !important;
+}
+
+/*edit*/
+#mmc_editBtn {
+  width: 100%;
+  margin-top: 10px;
+}
